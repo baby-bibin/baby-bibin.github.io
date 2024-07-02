@@ -27,28 +27,28 @@
         "userId": "baby-bibin"
       },
       {
-        "icon": "assets/images/insta.svg",
-        "label": "Instagram",
-        "link": "https://www.instagram.com/bibin.baby_/",
-        "userId": "bibin.baby_"
+        "icon": "assets/images/linkedin.svg",
+        "label": "Linkedin",
+        "link": "https://www.linkedin.com/in/baby-bibin",
+        "userId": "baby-bibin"
       },
       {
-        "icon": "assets/images/telegram.svg",
-        "label": "Telegram",
-        "link": "https://t.me/baby_bibin",
-        "userId": "baby_bibin"
-      },
-      {
-        "icon": "assets/images/facebook.svg",
-        "label": "Facebook",
-        "link": "https://www.facebook.com/kunjunji.bibin/",
-        "userId": "kunjunji.bibin"
+        "icon": "assets/images/gmail.svg",
+        "label": "Gmail",
+        "link": "mailto:bibinbaby1996@gmail.com",
+        "userId": "bibinbaby1996@gmail.com"
       },
       {
         "icon": "assets/images/phone.svg",
         "label": "Phone",
         "link": "+919747023547",
         "userId": "+919747023547"
+      },
+      {
+        "icon": "assets/images/insta.svg",
+        "label": "Instagram",
+        "link": "https://www.instagram.com/bibin.baby_/",
+        "userId": "bibin.baby_"
       }
     ]
   },

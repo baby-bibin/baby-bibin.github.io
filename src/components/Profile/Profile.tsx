@@ -12,10 +12,8 @@ const Profile: FC<any> = (props: any) => {
       case "Github":
         window.open(item.link, "_blank");
         break;
-      case "Facebook":
-        isMobile
-          ? window.open(`fb://profile/${item.userId}`, "_blank")
-          : window.open(item.link, "_blank");
+      case "Gmail":
+        window.open(item.link, "_blank");
         break;
       case "Instagram":
         isMobile
@@ -25,7 +23,7 @@ const Profile: FC<any> = (props: any) => {
       case "Phone":
         window.open(`tel:${item.link}`, "_blank");
         break;
-      case "Telegram":
+      case "Linkedin":
         window.open(item.link, "_blank");
         break;
     }
