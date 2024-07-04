@@ -60,32 +60,32 @@
       {
         "title": "Internship Trainee",
         "company": "Knowledge Lens",
-        "from": "Tue Jan 01 2019 00:00:00",
-        "to": "Wed May 01 2019 00:00:00",
+        "from": "Jan 2019",
+        "to": "May 2019",
         "location": "Bangalore, Karnataka, India",
         "timePeriod": "5 Months"
       },
       {
         "title": "Full Stack Developer",
         "company": "Knowledge Lens",
-        "from": "Wed May 01 2019 00:00:00",
-        "to": "Sat May 01 2021 00:00:00",
+        "from": "Jun 2019",
+        "to": "May 2021",
         "location": "Pune, Maharashtra, India",
         "timePeriod": "2 Years"
       },
       {
         "title": "Sr. Full Stack Developer",
         "company": "Knowledge Lens",
-        "from": "Sat May 01 2021 00:00:00",
-        "to": "Sat Oct 01 2022 00:00:00",
+        "from": "Jun 2021",
+        "to": "Oct 2022",
         "location": "Bangalore, Karnataka, India",
         "timePeriod": "1.5 Years"
       },
       {
         "title": "Technology Lead",
         "company": "Knowledge Lens",
-        "from": "Sat Oct 01 2022 00:00:00",
-        "to": "",
+        "from": "Nov 2022",
+        "to": "Present",
         "location": "Bangalore, Karnataka, India",
         "timePeriod": ""
       }

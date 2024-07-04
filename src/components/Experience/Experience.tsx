@@ -46,17 +46,11 @@ const Experience: FC<any> = (props: any) => {
                     <div className="dateElement">
                       <div className="subText">To </div>
                       <div className="date">
-                        {item.to &&
-                          new Intl.DateTimeFormat("en-US", {
-                            dateStyle: "medium",
-                          }).format(new Date(item.to))}
-                        {!item.to && "Present"}
+                       {item.to}
                       </div>
                       <div className="subText">From</div>
                       <div className="date">
-                        {new Intl.DateTimeFormat("en-US", {
-                          dateStyle: "medium",
-                        }).format(new Date(item.from))}
+                      {item.from}
                       </div>
                     </div>
                   </TimelineOppositeContent>
