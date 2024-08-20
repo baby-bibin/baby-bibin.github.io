@@ -7,7 +7,7 @@ import Education from "./components/Education/Education";
 import Works from "./components/Works/Works";
 import Certifications from "./components/Certifications/Certifications";
 import { useEffect, useState } from "react";
-
+const base_url = process.env.API || "https://portfolio-be-u1u3.onrender.com";
 interface MasterData {
   profileCardDetails: any;
   summaryCardDetails: any;
@@ -19,7 +19,6 @@ interface MasterData {
 
 function App() {
   const [masterData, setMasterData] = useState<MasterData>();
-  const base_url = process.env.API || "https://portfolio-be-u1u3.onrender.com";
   useEffect(() => {
     fetch(base_url + "/profile")
       .then((response) => response.json())
