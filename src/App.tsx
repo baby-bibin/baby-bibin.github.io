@@ -19,11 +19,9 @@ interface MasterData {
 
 function App() {
   const [masterData, setMasterData] = useState<MasterData>();
-
+  const base_url = process.env.API || "https://portfolio-be-u1u3.onrender.com";
   useEffect(() => {
-    console.log("UseEffect");
-
-    fetch("assets/json/master-data.json")
+    fetch(base_url + "/profile")
       .then((response) => response.json())
       .then((data: any) => {
         setMasterData(data);
