@@ -24,6 +24,14 @@ function App() {
       .then((response) => response.json())
       .then((data: any) => {
         setMasterData(data);
+      })
+      .catch(() => {
+        console.log("Loading local json");
+        fetch("assets/json/master-data.json")
+          .then((response) => response.json())
+          .then((data: any) => {
+            setMasterData(data);
+          });
       });
   }, []);
 
