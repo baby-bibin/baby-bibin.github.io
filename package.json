@@ -1,37 +1,36 @@
 {
-  "name": "my-app",
+  "name": "portfolio-fe",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://baby-bibin.github.io",
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/lab": "^5.0.0-alpha.170",
-    "@mui/material": "^5.15.21",
-    "@testing-library/jest-dom": "^6.4.6",
-    "@testing-library/react": "^16.0.0",
-    "@testing-library/user-event": "^14.5.2",
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.9",
-    "@types/react": "^18.3.3",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.105",
+    "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
-    "react-bootstrap": "^2.10.3",
-    "react-chrono": "^2.6.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.77.6",
-    "typescript": "5.1",
-    "web-vitals": "^4.2.0"
+    "react-scripts": "5.0.1",
+    "sass": "^1.77.8",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "PORT=3006 set node_options=--openssl-legacy-provider && react-scripts start",
-    "build": "set node_options=--openssl-legacy-provider && react-scripts build",
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "set node_options=--openssl-legacy-provider && npm run build",
-    "deploy": "set node_options=--openssl-legacy-provider && gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +51,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6",
     "gh-pages": "^6.1.1",
     "prettier": "3.3.2"
   }

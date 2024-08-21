@@ -1,10 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "ColorPalette";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: $primary-font-color;
 }
 
@@ -31,7 +31,6 @@ body {
     font-weight: 600;
   }
 }
-
 
 @media screen and (max-width: 1024px) {
   .mainContainer {
