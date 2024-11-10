@@ -16,7 +16,7 @@ interface MasterData {
   works: any;
 }
 
-const base_url = process.env.REACT_APP_API || "http://localhost:3000";
+// const base_url = process.env.REACT_APP_API || "http://localhost:3000";
 
 function App() {
   const [masterData, setMasterData] = useState<MasterData>();
