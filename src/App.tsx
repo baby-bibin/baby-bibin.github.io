@@ -21,19 +21,24 @@ const base_url = process.env.REACT_APP_API || "http://localhost:3000";
 function App() {
   const [masterData, setMasterData] = useState<MasterData>();
   useEffect(() => {
-    fetch(base_url + "/profile")
+    fetch("assets/json/master-data.json")
       .then((response) => response.json())
       .then((data: any) => {
         setMasterData(data);
-      })
-      .catch(() => {
-        console.log("Loading local json");
-        fetch("assets/json/master-data.json")
-          .then((response) => response.json())
-          .then((data: any) => {
-            setMasterData(data);
-          });
       });
+    // fetch(base_url + "/profile")
+    //   .then((response) => response.json())
+    //   .then((data: any) => {
+    //     setMasterData(data);
+    //   })
+    //   .catch(() => {
+    //     console.log("Loading local json");
+    //     fetch("assets/json/master-data.json")
+    //       .then((response) => response.json())
+    //       .then((data: any) => {
+    //         setMasterData(data);
+    //       });
+    //   });
   }, []);
 
   return (
