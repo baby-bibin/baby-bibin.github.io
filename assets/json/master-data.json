@@ -1,7 +1,7 @@
 {
   "profileCardDetails": {
     "name": "Bibin Baby",
-    "role": "Fullstack Developer - Angular | React | Node.js | Python",
+    "role": "Angular Developer - Angular | React | Node.js | Python",
     "info": [
       {
         "label": "Knowledge Lens: A Rockwell Automation Company",
@@ -66,28 +66,20 @@
         "timePeriod": "5 Months"
       },
       {
-        "title": "Full Stack Developer",
+        "title": "Angular Developer",
         "company": "Knowledge Lens",
         "from": "Jun 2019",
-        "to": "May 2021",
+        "to": "May 2023",
         "location": "Pune, Maharashtra, India",
         "timePeriod": "2 Years"
       },
       {
         "title": "Sr. Full Stack Developer",
         "company": "Knowledge Lens",
-        "from": "Jun 2021",
-        "to": "Oct 2022",
+        "from": "Jun 2023",
+        "to": "Sept 2024",
         "location": "Bangalore, Karnataka, India",
         "timePeriod": "1.5 Years"
-      },
-      {
-        "title": "Technology Lead",
-        "company": "Knowledge Lens",
-        "from": "Nov 2022",
-        "to": "Present",
-        "location": "Bangalore, Karnataka, India",
-        "timePeriod": ""
       }
     ]
   },
